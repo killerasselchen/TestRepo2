@@ -10,7 +10,18 @@ namespace Test1
     {
         static void Main(string[] args)
         {
+            Text text = new Text();
+
             Console.WriteLine("kick");
+
+            Console.ReadKey();
+
+            Console.WriteLine("Version 1 entstanden");
+
+            Console.ReadKey();
+
+            text.CallHi();
+
         }
     }
 }
